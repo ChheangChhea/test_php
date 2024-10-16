@@ -7,6 +7,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Process the data (send email, save to database, etc.)
 
-    echo "<p>Thanks, $name! We got your message.</p>";
+    echo "<p>Thanks,<br> $name!<br> $email !<br> $message <br> We got your message.</p>";
 }
 ?>
